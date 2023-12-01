@@ -1,0 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#collapseMarka a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.card {
+    width: 30%;
+}
+@media (max-width: 577px) {
+    .card {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+    .card {
+        width: 50%;
+    }
+}
